@@ -38,7 +38,7 @@ class Norminette(Linter):
     multiline = True
     error_stream = util.STREAM_BOTH
     defaults = {
-        'selector': 'source.c'
+        'selector': 'source.c.norminette'
     }
 
     def split_match(self, match):
